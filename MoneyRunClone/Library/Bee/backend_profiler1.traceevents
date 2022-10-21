@@ -1,0 +1,514 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1660915316317589, "dur":1336, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660915316318931, "dur":73, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1660915316319034, "dur":42, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1660915316319078, "dur":782, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1660915316319935, "dur":675, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660915316320610, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660915317843255, "dur":180, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660915317843435, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660915317843450, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660915317843452, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660915317843460, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660915317843463, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660915317843472, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660915317843474, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660915317843481, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660915317843483, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660915317843489, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660915317843491, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660915317843497, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660915317843499, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660915317843506, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660915317843508, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660915317843516, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660915317843530, "dur":67, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660915317843599, "dur":84293, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1660915316320333, "dur":339, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660915316320672, "dur":5564, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660915316326237, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1660915316326517, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660915316332439, "dur":1084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1660915316333669, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1660915316333802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660915316334485, "dur":1434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1660915316336040, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1660915316336162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660915316336172, "dur":1373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1660915316337701, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660915316337844, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660915316337852, "dur":37549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660915316375563, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660915316375707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660915316375716, "dur":121644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660915316497467, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660915316497607, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660915316497616, "dur":30661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660915316528434, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660915316528571, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660915316528581, "dur":26896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660915316555636, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660915316555748, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660915316555756, "dur":101213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660915316657207, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660915316657400, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660915316657410, "dur":89463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660915316748197, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660915316748326, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660915316748335, "dur":31420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660915316779921, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660915316780062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660915316780072, "dur":73988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660915316854188, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660915316854310, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660915316854319, "dur":35776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660915316890250, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660915316890406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660915316890415, "dur":62450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660915316953082, "dur":68175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660915317021263, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660915317021285, "dur":1112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660915317022523, "dur":3428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660915317025958, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660915317025968, "dur":1251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660915317027346, "dur":52451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660915317079805, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660915317079818, "dur":1348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660915317081300, "dur":1251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660915317082712, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660915317082728, "dur":1329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660915317084195, "dur":1086, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660915317085286, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660915317085296, "dur":1247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660915317086681, "dur":30782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660915317117469, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660915317117479, "dur":1089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660915317118701, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660915317118831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660915317118840, "dur":197648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660915317316642, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660915317316769, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660915317316779, "dur":54190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660915317371118, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660915317371249, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660915317371258, "dur":142283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660915317513709, "dur":112211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/DOTween.Modules.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660915317625926, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660915317625936, "dur":1455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/DOTween.Modules.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660915317627542, "dur":215711, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660915316320475, "dur":229, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660915316320704, "dur":5533, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660915316326238, "dur":482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1660915316326723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660915316333286, "dur":11617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1660915316345137, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660915316345328, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660915316345343, "dur":151953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660915316497405, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660915316497530, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660915316497537, "dur":32768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660915316530454, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660915316530624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660915316530634, "dur":25213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660915316555959, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660915316556085, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660915316556094, "dur":35299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660915316591509, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660915316591679, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660915316591691, "dur":168793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660915316760679, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660915316760820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660915316760831, "dur":30218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660915316791190, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660915316791351, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660915316791360, "dur":28403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660915316819875, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660915316819981, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660915316819988, "dur":51756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660915316871921, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660915316872089, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660915316872101, "dur":29245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660915316901496, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660915316901646, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660915316901653, "dur":40364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660915316942148, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660915316942263, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660915316942272, "dur":158711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660915317101123, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660915317101259, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660915317101268, "dur":112445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660915317213831, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660915317213945, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660915317213954, "dur":53090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660915317267195, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660915317267322, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660915317267337, "dur":290073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660915317557613, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1660915317557799, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660915317557811, "dur":2734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1660915317560740, "dur":2514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1660915317563259, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660915317563267, "dur":1221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1660915317564643, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1660915317564770, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660915317564780, "dur":1708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1660915317566633, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1660915317566776, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660915317566786, "dur":1242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1660915317568182, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1660915317568304, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660915317568310, "dur":1220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1660915317569670, "dur":273564, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660915316320618, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660915316320618, "dur":5558, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660915316326188, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1660915316326189, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660915316326329, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1660915316326334, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660915316327227, "dur":3543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1660915316330773, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1660915316330948, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660915316331453, "dur":1893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1660915316334104, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1660915316334290, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660915316334544, "dur":4882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1660915316339561, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660915316339744, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660915316339933, "dur":157183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660915316497230, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660915316497346, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660915316497356, "dur":121099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660915316618641, "dur":162506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660915316781152, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660915316781161, "dur":1298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660915316782621, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660915316782733, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660915316782741, "dur":75942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660915316858811, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660915316858928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660915316858937, "dur":41602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660915316900728, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660915316900898, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660915316900908, "dur":65960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660915316967003, "dur":133405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660915317100412, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660915317100423, "dur":1584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660915317102133, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660915317102256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660915317102264, "dur":316453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660915317418858, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660915317418977, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660915317418986, "dur":73067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660915317492209, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660915317492343, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660915317492352, "dur":268847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660915317761328, "dur":81922, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660915316320797, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660915316320797, "dur":5433, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660915316326231, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1660915316326354, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660915316331728, "dur":1123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1660915316332983, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1660915316333116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660915316333127, "dur":1037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1660915316334322, "dur":483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1660915316334810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660915316334818, "dur":3098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1660915316338039, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1660915316338179, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660915316338187, "dur":3355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1660915316341696, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660915316341849, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660915316341902, "dur":154822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660915316496844, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660915316496972, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660915316496981, "dur":141533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660915316638698, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660915316638820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660915316638829, "dur":50292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660915316689299, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660915316689459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660915316689470, "dur":48705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660915316738318, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660915316738433, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660915316738440, "dur":29932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660915316768505, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660915316768678, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660915316768688, "dur":81412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660915316850253, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660915316850382, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660915316850392, "dur":39686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660915316890250, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660915316890406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660915316890415, "dur":27304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660915316917844, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660915316917984, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660915316917996, "dur":33408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660915316951539, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660915316951684, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660915316951694, "dur":42398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660915316994243, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660915316994362, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660915316994372, "dur":80808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660915317075318, "dur":62157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660915317137481, "dur":19, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660915317137510, "dur":1204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660915317138839, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660915317138958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660915317138965, "dur":102696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660915317241798, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660915317241926, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660915317241935, "dur":50706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660915317292951, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660915317293079, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660915317293089, "dur":337987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660915317631279, "dur":211949, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660915316320953, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660915316320953, "dur":5229, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660915316326188, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1660915316326335, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660915316328328, "dur":2454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1660915316330926, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1660915316331023, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660915316331437, "dur":1791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1660915316333342, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1660915316333492, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660915316333503, "dur":2925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1660915316336550, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1660915316336740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660915316336752, "dur":1312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1660915316338172, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone.exe" }}
+,{ "pid":12345, "tid":5, "ts":1660915316338325, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660915316338329, "dur":156497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone.exe" }}
+,{ "pid":12345, "tid":5, "ts":1660915316494942, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660915316495083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660915316495093, "dur":45686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660915316540933, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660915316541069, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660915316541080, "dur":48231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660915316589444, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660915316589578, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660915316589620, "dur":75429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660915316665213, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660915316665361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660915316665372, "dur":27005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660915316692499, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660915316692650, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660915316692661, "dur":45199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660915316737996, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660915316738141, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660915316738149, "dur":28546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660915316766863, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660915316767001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660915316767039, "dur":51870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660915316819060, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660915316819206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660915316819216, "dur":151724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660915316971066, "dur":101458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660915317072532, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660915317072544, "dur":1546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660915317074252, "dur":1575, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660915317075832, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660915317075842, "dur":1093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660915317077070, "dur":3030, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660915317080108, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660915317080119, "dur":1117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660915317081356, "dur":33072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660915317114434, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660915317114444, "dur":1142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660915317115724, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660915317115896, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660915317115905, "dur":213782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660915317329842, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660915317329975, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660915317329983, "dur":143854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660915317473978, "dur":44039, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660915317518026, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660915317518069, "dur":324957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660915317843198, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":5, "ts":1660915317843201, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660915316321102, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660915316321102, "dur":5149, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660915316326253, "dur":474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1660915316326730, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660915316333707, "dur":3678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1660915316337518, "dur":619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660915316338143, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660915316341405, "dur":10780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660915316352399, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660915316352548, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660915316352559, "dur":203322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660915316555991, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660915316556165, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660915316556193, "dur":92391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660915316648729, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660915316648849, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660915316648859, "dur":142552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660915316791710, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660915316791865, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660915316791875, "dur":34011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660915316826108, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660915316826397, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660915316826411, "dur":25376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660915316851911, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660915316852028, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660915316852038, "dur":78466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660915316930656, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660915316930770, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660915316930780, "dur":66699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660915316997644, "dur":98330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660915317095980, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660915317096004, "dur":2161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660915317098293, "dur":1351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660915317099649, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660915317099662, "dur":3594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660915317103391, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660915317103525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660915317103533, "dur":80620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660915317184296, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660915317184422, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660915317184432, "dur":105753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660915317290359, "dur":9897, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660915317300264, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660915317300279, "dur":245239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660915317545699, "dur":1713, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660915317547418, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660915317547442, "dur":1064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660915317548648, "dur":317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1660915317548970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660915317549373, "dur":971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1660915317550466, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1660915317550602, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660915317550656, "dur":1145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1660915317551931, "dur":3056, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1660915317554997, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660915317555010, "dur":10208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1660915317565398, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1660915317565574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660915317565581, "dur":1451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1660915317567163, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1660915317567282, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660915317567289, "dur":1017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1660915317568418, "dur":284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1660915317568707, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660915317568716, "dur":1042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1660915317569872, "dur":273358, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660915316321252, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660915316321253, "dur":5005, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660915316326259, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1660915316326379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660915316332352, "dur":1265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1660915316333755, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1660915316333928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660915316334157, "dur":3090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1660915316337379, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660915316337535, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660915316337778, "dur":3906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660915316341819, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660915316341962, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660915316341968, "dur":212605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660915316554747, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660915316554885, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660915316554895, "dur":79475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660915316634524, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660915316634685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660915316634691, "dur":50563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660915316685406, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660915316685542, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660915316685551, "dur":52653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660915316738359, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660915316738482, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660915316738489, "dur":52545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660915316791201, "dur":315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660915316791519, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660915316791526, "dur":42943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660915316834614, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660915316834742, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660915316834782, "dur":46017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660915316880924, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660915316881041, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660915316881050, "dur":170736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660915317051932, "dur":1096, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660915317053033, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660915317053043, "dur":981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660915317054145, "dur":50366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660915317104516, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660915317104525, "dur":1094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660915317105766, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660915317105887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660915317105895, "dur":133811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660915317239856, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660915317240009, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660915317240019, "dur":158135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660915317398297, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660915317398423, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660915317398432, "dur":131369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660915317529946, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660915317530073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660915317530082, "dur":176766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660915317706987, "dur":136242, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660915316321389, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660915316321389, "dur":4842, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660915316326231, "dur":489, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1660915316326723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660915316332898, "dur":1128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1660915316334155, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1660915316334329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660915316335712, "dur":2741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1660915316338601, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1660915316338742, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660915316339057, "dur":155553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1660915316494742, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660915316494883, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660915316494892, "dur":139429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660915316634489, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660915316634679, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660915316634687, "dur":31671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660915316666471, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660915316666613, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660915316666624, "dur":71849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660915316738616, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660915316738775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660915316738784, "dur":29703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660915316768649, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660915316768792, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660915316768801, "dur":45403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660915316814337, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660915316814546, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660915316814569, "dur":44499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660915316859185, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660915316859298, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660915316859306, "dur":41239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660915316900726, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660915316900896, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660915316900906, "dur":48023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660915316949051, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660915316949170, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660915316949182, "dur":49475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660915316998796, "dur":327574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660915317326377, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660915317326389, "dur":1357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660915317327895, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660915317328038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660915317328069, "dur":227301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660915317555511, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1660915317555655, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660915317555662, "dur":2881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1660915317558702, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1660915317558848, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660915317558857, "dur":1667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1660915317560736, "dur":399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1660915317561143, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660915317561199, "dur":1529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1660915317562882, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1660915317563007, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660915317563020, "dur":1763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1660915317564972, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/level1.resS" }}
+,{ "pid":12345, "tid":8, "ts":1660915317565146, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660915317565155, "dur":2580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/level1.resS" }}
+,{ "pid":12345, "tid":8, "ts":1660915317567864, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1660915317567982, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660915317567989, "dur":1179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MoneyRun Clone/MoneyRunClone_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1660915317569286, "dur":273966, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660915317929373, "dur":2277, "ph":"X", "name": "ProfilerWriteOutput" }
+,
